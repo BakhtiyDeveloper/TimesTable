@@ -9,7 +9,9 @@ int start = Convert.ToInt32(Console.ReadLine());
 Console.Write("Enter second number: ");
 int finish = Convert.ToInt32(Console.ReadLine()); 
 
-
+Console.WriteLine();
+Console.WriteLine($"TIMES TABLE OF NUMBERS {start} TO {finish}");
+Console.WriteLine();
 
 for(int row = 1; row <= 10; row++)
 {  
@@ -22,18 +24,15 @@ for(int row = 1; row <= 10; row++)
     Console.WriteLine(); 
 } 
 
-
-Console.WriteLine("Keyingisi");
-
-Console.WriteLine("Keyingisi");
-
+Console.WriteLine();
+Console.WriteLine($"TIMES TABLE OF NUMBERS 1 TO 10");
+Console.WriteLine();
 
 for(int row = 1; row <= 10; row++)
 { 
     for(int columns = 1; columns <= 10; columns++)
     { 
-        Console.Write($"{columns} * {row} = {row * columns} \t"); 
-         
+        Console.Write($"{columns} * {row} = {row * columns} \t");        
     } 
     Console.WriteLine(); 
 }
